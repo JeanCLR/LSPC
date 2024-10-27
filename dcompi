@@ -1,0 +1,8 @@
+#!/bin/bash
+
+f1=1_constants
+f2=2_functions
+f3=3_subroutines
+f4=4_main
+
+gfortran ${f1}.f90  ${f2}.f90  ${f3}.f90  ${f4}.f90 -o LSPC
